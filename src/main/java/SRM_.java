@@ -35,21 +35,14 @@
 import ij.IJ;
 import ij.ImagePlus;
 import ij.ImageStack;
-
 import ij.gui.GenericDialog;
-import ij.gui.Roi;
-
+import ij.plugin.filter.PlugInFilter;
 import ij.process.ByteProcessor;
-import ij.process.ColorProcessor;
 import ij.process.FloatProcessor;
 import ij.process.ImageProcessor;
 import ij.process.ShortProcessor;
 
-import ij.plugin.filter.PlugInFilter;
-
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 /*
  * The Statistical Region Merging algorithm is described in
