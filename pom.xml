@@ -24,6 +24,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Statistical_Region_Merging</url>
 	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/fiji/Statistical_Region_Merging/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Statistical_Region_Merging/</url>
