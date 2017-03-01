@@ -73,8 +73,8 @@
 		<url>https://github.com/fiji/Statistical_Region_Merging/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Statistical_Region_Merging/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Statistical_Region_Merging</url>
 	</ciManagement>
 
 	<properties>
