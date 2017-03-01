@@ -6,17 +6,30 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>sc.fiji</groupId>
-		<artifactId>pom-fiji</artifactId>
-		<version>6.1.3</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>14.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>sc.fiji</groupId>
 	<artifactId>Statistical_Region_Merging</artifactId>
 	<version>2.0.1-SNAPSHOT</version>
 
-	<name>plugins/Statistical_Region_Merging.jar</name>
-	<description></description>
+	<name>Statistical Region Merging</name>
+	<description>Statistical Region Merging plugin for Fiji.</description>
+	<url>https://imagej.net/Statistical_Region_Merging</url>
+	<inceptionYear>2009</inceptionYear>
+	<organization>
+		<name>Fiji</name>
+		<url>https://fiji.sc/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
@@ -42,6 +55,13 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Statistical_Region_Merging</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Statistical_Region_Merging</developerConnection>
@@ -56,6 +76,12 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Statistical_Region_Merging/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
+		<license.projectName>Fiji distribution of ImageJ for the life sciences.</license.projectName>
+	</properties>
 
 	<repositories>
 		<!-- NB: for project parent -->
