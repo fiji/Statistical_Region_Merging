@@ -60,7 +60,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Statistical_Region_Merging</connection>
+		<connection>scm:git:https://github.com/fiji/Statistical_Region_Merging</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Statistical_Region_Merging</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Statistical_Region_Merging</url>
